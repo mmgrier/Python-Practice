@@ -1,21 +1,154 @@
-Code Courtesy of Zed A. Shaw's Learn Python the Hard Way
-
-print("The official name for this # sign is OCTOTHORPE")
-print("Its a simplified cursive symbol for a latin term dating back to the 14th century and its still popular today")
-
-#Not a surprise to anyone but python lets '' and "" acts as strings
-print("Python likes 'this'.")
-#This gives a syntax errror 
-print("Python does not like "this." ")
-
-
-Practice Variables and Math
-
-#Variables
-hens = 25 + 30/ 6
-roosters = 100 - 25 * 3 % 4
-eggs = 3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6
-
-print("I have", hens, "Hens.")
-print("I have", roosters, "Roosters.")
-print("I have", eggs, "eggs - the fox ate my egg.") 
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMYNpi3Iv8wx3MBZ9eoIuWc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mmgrier/Python-Practice/blob/main/Python%20Practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "iiEl80yHeWlW"
+      },
+      "source": [
+        "Code Courtesy of Zed A. Shaw's Learn Python the Hard Way"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "kwxeiggSeXn1",
+        "outputId": "1dde1e0d-cf63-4a85-8b3f-13b3f97e4229"
+      },
+      "source": [
+        "print(\"The official name for this # sign is OCTOTHORPE\")\r\n",
+        "print(\"Its a simplified cursive symbol for a latin term dating back to the 14th century and its still popular today\")"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "The official name for this # sign is OCTOTHORPE\n",
+            "Its a simplified cursive symbol for a latin term dating back to the 14th century and its still popular today\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 135
+        },
+        "id": "hIWgBGE2fmJx",
+        "outputId": "d8221159-3356-47e8-e300-64514f319306"
+      },
+      "source": [
+        "#Not a surprise to anyone but python lets '' and \"\" acts as strings\r\n",
+        "print(\"Python likes 'this'.\")\r\n",
+        "#This gives a syntax errror \r\n",
+        "print(\"Python does not like \"this.\" \")\r\n"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-8-ffb8cb4df608>\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    print(\"Python does not like \"this.\" \")\u001b[0m\n\u001b[0m                                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "X7SLFy2khs7K"
+      },
+      "source": [
+        "Practice Variables and Math"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bjqQymPKhvCP"
+      },
+      "source": [
+        "#Variables\r\n",
+        "hens = 25 + 30/ 6\r\n",
+        "roosters = 100 - 25 * 3 % 4\r\n",
+        "eggs = 3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6"
+      ],
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "IR2XFFpgiAAl",
+        "outputId": "6fc7515a-3564-4bc8-e3f0-d074eb9fdf04"
+      },
+      "source": [
+        "print(\"I have\", hens, \"Hens.\")\r\n",
+        "print(\"I have\", roosters, \"Roosters.\")\r\n",
+        "print(\"I have\", eggs, \"eggs - the fox ate my egg.\") "
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I have 30.0 Hens.\n",
+            "I have 97 Roosters.\n",
+            "I have 6.75 eggs - the fox ate my egg.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "LtTrjcUViFR7"
+      },
+      "source": [
+        "\"\""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
