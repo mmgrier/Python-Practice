@@ -1,0 +1,21 @@
+Code Courtesy of Zed A. Shaw's Learn Python the Hard Way
+
+print("The official name for this # sign is OCTOTHORPE")
+print("Its a simplified cursive symbol for a latin term dating back to the 14th century and its still popular today")
+
+#Not a surprise to anyone but python lets '' and "" acts as strings
+print("Python likes 'this'.")
+#This gives a syntax errror 
+print("Python does not like "this." ")
+
+
+Practice Variables and Math
+
+#Variables
+hens = 25 + 30/ 6
+roosters = 100 - 25 * 3 % 4
+eggs = 3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6
+
+print("I have", hens, "Hens.")
+print("I have", roosters, "Roosters.")
+print("I have", eggs, "eggs - the fox ate my egg.") 
